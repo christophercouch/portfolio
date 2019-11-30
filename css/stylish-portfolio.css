@@ -213,16 +213,17 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content {
-  color: rgba(255, 255, 255, 0);
   margin: auto 2rem 2rem;
 }
 
 .portfolio-item .caption .caption-content h2 {
+  color: rgba(255, 255, 255, 0);
   font-size: 0.8rem;
   text-transform: uppercase;
 }
 
 .portfolio-item .caption .caption-content p {
+  color: rgba(255, 255, 255, 0);
   font-weight: 300;
   font-size: 1.2rem;
 }
@@ -256,8 +257,6 @@ h6 {
     background-color: rgb(41, 41, 41);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
-  }
-  .caption:hover {
     color: rgb(255, 255, 255);
   }
 }
