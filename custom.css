@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-  font-family: 'Patrick Hand SC', cursive;
+  font-family: 'Dokdo', cursive;
 }
 
 h1,
@@ -113,11 +113,10 @@ h6 {
   z-index: 2;
   right: 0;
   width: 250px;
-  height: 100%;
+  height: fit-content;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
   background: rgb(255, 255, 255);
-  border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .sidebar-nav {
