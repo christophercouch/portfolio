@@ -50,6 +50,10 @@ h6 {
   font-weight: 550;
 }
 
+@media (min-width: 768px) {
+
+}
+
 @media (max-width: 992px) {
 }
 
