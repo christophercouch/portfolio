@@ -20,7 +20,7 @@ body {
 }
 
 .content-section-heading h2 {
-  font-size: 60%;
+  font-size: 2rem;
   color: white;
 }
 
@@ -63,10 +63,6 @@ h6 {
     margin-right: 0rem;
     padding-bottom: 5%;
   }
-
-}
-
-@media (min-width: 768px) {
 
 }
 
@@ -243,15 +239,31 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content h2 {
-  color: rgba(255, 255, 255, 0);
+  color: rgb(0, 0, 0);
   font-size: 0.8rem;
   text-transform: uppercase;
+  visibility: hidden;
 }
 
 .portfolio-item .caption .caption-content p {
-  color: rgba(255, 255, 255, 0);
+  color: rgb(0, 0, 0);
   font-weight: 300;
   font-size: 1.2rem;
+  visibility: hidden;
+}
+
+.portfolio-item:hover .caption .caption-content h2 {
+  color: rgb(0, 0, 0);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  visibility: visible;
+}
+
+.portfolio-item:hover .caption .caption-content p {
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  font-size: 1.2rem;
+  visibility: visible;
 }
 
 @media (min-width: 992px) {
