@@ -50,12 +50,24 @@ h6 {
   font-weight: 550;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .list-inline {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
 @media (min-width: 768px) {
 
 }
 
 @media (max-width: 992px) {
 }
+
 
 .scroll-to-top {
   position: fixed;
@@ -93,7 +105,7 @@ h6 {
 }
 
 .masthead h1 {
-  font-size: 4rem;
+  font-size: flex;
   margin: 0;
   padding: 0;
 }
