@@ -33,6 +33,10 @@ h1 {
   font-family: 'Dokdo', cursive;
 }
 
+h2 {
+  margin-bottom: 2rem;
+}
+
 h1,
 h2,
 h3,
