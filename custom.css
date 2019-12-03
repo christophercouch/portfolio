@@ -260,7 +260,7 @@ h6 {
 .portfolio-item .caption .caption-content p {
   color: rgb(0, 0, 0);
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1rem;
   visibility: hidden;
 }
 
@@ -274,7 +274,7 @@ h6 {
 .portfolio-item:hover .caption .caption-content p {
   color: rgb(0, 0, 0);
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: 1rem;
   visibility: visible;
 }
 
