@@ -320,6 +320,10 @@ footer.footer {
   color: white
 }
 
+.social-link svg {
+  width: 49px;
+}
+
 footer.footer .social-link {
   display: block;
   height: 4rem;
