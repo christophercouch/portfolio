@@ -9,42 +9,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  max-width: 40%;
-  padding: 0 4px;
-  width: 750px;
-  margin: 4px auto 0;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 20%;
-    max-width: 20%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 90%;
-    max-width: 90%;
-  }
-}
-
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
@@ -337,12 +301,12 @@ h6 {
     clip-path: inset(-1px);
   }
   .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    -webkit-clip-path: inset(10rem);
+    clip-path: inset(10rem);
   }
   .portfolio-item:hover .caption {
     background-color: rgb(0, 0, 0);
-    -webkit-clip-path: inset(2rem);
+    -webkit-clip-path: inset(10rem);
     clip-path: inset(1.9rem);
     color: rgb(0, 0, 0);
   }
@@ -381,8 +345,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #a0a0a0 !important;
-  border-color: #660b0b !important;
+  background-color: #000000 !important;
+  border-color: #ffffff !important;
 }
 
 .btn-secondary {
@@ -392,8 +356,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 
 .btn-dark {
@@ -403,16 +367,4 @@ a:hover, a:focus, a:active {
 .btn {
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
   font-weight: 700;
-}
-
-.bg-primary {
-  background-color: #1D809F !important;
-}
-
-.text-primary {
-  color: #1D809F !important;
-}
-
-.text-secondary {
-  color: #ecb807 !important;
 }
