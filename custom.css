@@ -17,20 +17,16 @@ body {
 
 /* Create four equal columns that sits next to each other */
 .column {
-  flex: 20%;
-  max-width: 20%;
+  max-width: 40%;
   padding: 0 4px;
+  width: 750px;
+  margin: 4px auto 0;
 }
 
 .column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-}
-
-img.center {
-  display: block;
-  margin: 0 auto;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
