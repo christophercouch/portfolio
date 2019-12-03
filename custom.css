@@ -139,7 +139,7 @@ h6 {
   right: 0;
   width: 250px;
   height: fit-content;
-  transition: all 0.4s ease 0s;
+  transition: all 0.3s ease 0s;
   transform: translateX(250px);
   background: rgb(255, 255, 255);
 }
@@ -150,6 +150,7 @@ h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: right!important;
 }
 
 .sidebar-nav li.sidebar-nav-item a {
@@ -189,7 +190,7 @@ h6 {
 }
 
 #sidebar-wrapper.active {
-  right: 130px;
+  right: 115px;
   width: 250px;
   transition: all 0.4s ease 0s;
 }
