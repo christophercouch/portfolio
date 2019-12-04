@@ -309,7 +309,6 @@ h6 {
     background-color: rgb(0, 0, 0);
     -webkit-clip-path: inset(10rem);
     clip-path: inset(1.9rem);
-    color: rgb(0, 0, 0);
   }
 }
 
@@ -345,7 +344,6 @@ a:hover, a:focus, a:active {
 
 .btn-primary {
   background-color: rgb(255, 255, 255) !important;
-  border-color: rgb(255, 255, 255) !important;
   color: rgb(0, 0, 0) !important;
 }
 
@@ -356,13 +354,11 @@ a:hover, a:focus, a:active {
 
 .btn-secondary {
   background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
   color: #fff !important;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #000000 !important;
-  border-color: #000000 !important;
 }
 
 .btn-dark {
